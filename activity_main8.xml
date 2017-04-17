@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#5fb0c9"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Hi User, How are you today?"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Drive Wisely, Spend Lightly! We are here to help you, Click Now!"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24dp"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="29dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Check your Analytics!"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24dp"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/button10"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#d67601"
+        android:text="Feeling Lucky"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_marginBottom="70dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:text="Today is a very Pleasant day! "
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/weather_icon"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:layout_marginBottom="32dp"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#d67601"
+        android:text="Lost your Key? Don't Worry!"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_above="@+id/button14"
+        android:layout_marginBottom="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:background="#d67601"
+        android:text="Wear your Helmets Please, Let's Drive"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_marginBottom="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/wea"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+</RelativeLayout>
